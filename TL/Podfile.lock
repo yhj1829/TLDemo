@@ -1,0 +1,81 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HYBImageCliped (2.2.4)
+  - HYBMasonryAutoCellHeight (2.0.1):
+    - Masonry (~> 0.6)
+  - HYBNetworking (3.3.1):
+    - AFNetworking (~> 3.1.0)
+  - IQKeyboardManager (4.0.7)
+  - Masonry (0.6.4)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - RongCloudIM/IMKit (2.8.0):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.0.3)
+  - Toast (3.1.0)
+  - XCKit (1.0.1)
+  - YZDisplayViewController (1.0.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - HYBImageCliped
+  - HYBMasonryAutoCellHeight
+  - HYBNetworking
+  - IQKeyboardManager
+  - MJExtension
+  - MJRefresh
+  - RongCloudIM/IMKit (= 2.8.0)
+  - RongCloudIM/IMLib (= 2.8.0)
+  - SDWebImage
+  - SVProgressHUD
+  - Toast
+  - XCKit (from `https://git.coding.net/LXChun/XCKit.git`, tag `1.0.1`)
+  - YZDisplayViewController
+
+EXTERNAL SOURCES:
+  XCKit:
+    :git: https://git.coding.net/LXChun/XCKit.git
+    :tag: 1.0.1
+
+CHECKOUT OPTIONS:
+  XCKit:
+    :git: https://git.coding.net/LXChun/XCKit.git
+    :tag: 1.0.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HYBImageCliped: 22d14431324bc9d056353d6f1490a3bd03fc7dff
+  HYBMasonryAutoCellHeight: 9296583777080d32ba6257f55e52b7334dd481fc
+  HYBNetworking: 5b350e2eacfbf6db7d3f4253274b2f2bb68e881c
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RongCloudIM: 82a5fcf93027ef2845063e6d5ba77f9f42eb87a5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  XCKit: 207f7b1c26b6821eb6c120e38058fb754f75a984
+  YZDisplayViewController: 621f737a9aa3dfbc95a901e89e5e7c4b2ea6ef79
+
+PODFILE CHECKSUM: 5299a48d85fa8afd7cc48c3789a74d2aecdf2651
+
+COCOAPODS: 1.1.1

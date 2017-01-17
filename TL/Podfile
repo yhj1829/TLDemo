@@ -1,0 +1,18 @@
+target 'TL' do
+
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'Toast'
+pod 'YZDisplayViewController'
+pod 'SVProgressHUD'
+pod 'RongCloudIM/IMLib', '2.8.0'
+pod 'RongCloudIM/IMKit', '2.8.0'
+pod 'XCKit', :git => 'https://git.coding.net/LXChun/XCKit.git', :tag => '1.0.1'
+pod 'HYBNetworking'
+pod 'HYBMasonryAutoCellHeight'
+pod 'HYBImageCliped'
+pod 'IQKeyboardManager'
+
+end 

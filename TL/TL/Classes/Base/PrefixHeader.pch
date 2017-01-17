@@ -1,0 +1,75 @@
+//
+//  PrefixHeader.pch
+//  TL
+//
+//  Created by 阳光 on 16/11/12.
+//  Copyright © 2016年 阳光. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define Font_Number(a)     [UIFont fontWithName:@"PingFangSC-Regular" size:a]
+
+
+
+
+// View 圆角和加边框
+#define ViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+
+
+// View 圆角
+#define ViewRadius(View, Radius)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES]
+
+#import "Header.h"
+#import "ColorHeader.h"
+#import "TLTool.h"
+
+
+#define kmargin         10
+
+//app的高度
+#define  QBAPPW ([UIScreen mainScreen].bounds.size.width)
+//app的宽度
+#define  QBAPPH ([UIScreen mainScreen].bounds.size.height)
+
+#define HexRGB(rgbValue)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define HexRGB_A(rgbValue,a)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+
+// 颜色
+#define MAIN_BACK_COLOR  HexRGB(0xf1f1f1)   
+//HexRGB(0x2969C1)
+
+#define NavBgColor   HexRGB(0x2969C1)
+
+#define WhiteColor [UIColor whiteColor]
+
+#define ClearColor [UIColor clearColor]
+
+// 屏幕
+#define APPW [UIScreen mainScreen].bounds.size.width
+#define APPH [UIScreen mainScreen].bounds.size.height
+
+// 颜色(RGB)
+#define RGBCOLOR(r,g,b)     [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#define RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+#import "UIFont+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extention.h"
+#import "UIImage+Extension.h"
+
+#endif /* PrefixHeader_pch */
